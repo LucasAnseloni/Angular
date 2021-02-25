@@ -21,7 +21,7 @@ export class CadastrarComponent implements OnInit {
   ) { }
 
   ngOnInit()  {
-    window.scroll()
+    window.scroll(0,0)
 
     this.user
   }

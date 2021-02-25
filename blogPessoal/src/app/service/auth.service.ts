@@ -13,8 +13,7 @@ export class AuthService {
 
   constructor(
     private http: HttpClient,
-    private router: Router
-  ) { }
+   ) { }
 
   entrar(userLogin: UserLogin): Observable<UserLogin>{
     return this.http.post<UserLogin>('http://localhost:8080/usuarios/logar', userLogin)
